@@ -1,43 +1,87 @@
-# Surf Shop: End-to-End Business Intelligence Solution
+## 📚 Case Study: Fixing Margin Declines for a Retail Surf Shop
 
-This project was built as part of the **Zero to Mastery Business Intelligence Bootcamp** and demonstrates a complete business intelligence solution using **Microsoft Excel** for a fictional surf shop.
+### ✅ Scenario
+The fictional surf shop begins noticing declining profitability despite steady sales volume.  
+Management reports:
 
----
+- Rising inventory costs  
+- Certain products selling well but not contributing much profit  
+- Regional performance inconsistent  
+- No centralized view of KPIs, margins, or product-level insights  
 
-## 📊 What I Did
+The leadership team needs a BI solution to identify what’s causing margin compression and which products or regions drive the shortfall.
 
-- Built an end-to-end BI solution in Excel to simulate a real-world retail analytics scenario.
-- Automated the ETL process using **Power Query** to extract, clean, and transform external sales and inventory data.
-- Created dozens of **performance KPIs** using advanced Excel functions to support strategic decision-making.
-- Designed interactive **dashboards** using PivotTables, charts, and slicers for dynamic data exploration.
-- Simulated DAX functions like `ALL()` and `TOPN()` using equivalent Excel logic and techniques.
-- Applied BI best practices including **data modeling**, clear visual design, and storytelling to deliver actionable insights.
-
----
-
-## 📂 Files Included
-
-- `The ALL Function.xlsx` – Replicates the logic of DAX’s ALL function in Excel.
-- `The TOPN Function.xlsx` – Demonstrates Excel-based logic for TOPN-style filtering and ranking.
-- `Data Visualization Techniques.xlsx` – Final dashboard combining KPIs, charts, and Power Query transformations.
+The Surf Shop BI Dashboard is created to consolidate data, automate transformations, and surface actionable insights.
 
 ---
 
-## 📸 Dashboard Previews
+### ✅ Step 1 — Data Extraction & Transformation (Power Query)
+Raw sales, product, and regional data are loaded into Excel using Power Query.
 
-### Key Metrics
-![Key Metrics](images/metrics.PNG)
+**Transformations Applied:**
+- Cleaned inconsistent product names  
+- Standardized regional codes  
+- Fixed cost and sales mismatches  
+- Merged sales tables with inventory cost data  
+- Built a data model with dimension + fact tables  
 
-### Profit by Product
-![Profit by Product](images/profit_by_product.PNG)
-
-### Profit by Region
-![Profit by Region](images/profit_by_region.PNG)
+This created a clean, refreshable backend for the KPI dashboards.
 
 ---
 
-## 🧰 Tools Used
+### ✅ Step 2 — KPI Creation & Margin Diagnostics
+Dozens of KPIs were built using advanced Excel logic:
 
-- Microsoft Excel (Power Query, PivotTables, Advanced Functions)
-- Excel Formulas & Named Ranges
-- Data Modeling Concepts
+- Total Sales  
+- Gross Profit & Gross Margin %  
+- Units Sold  
+- Cost per Product  
+- Profit per Product  
+- Region-Level Performance  
+
+**Key Findings:**
+- Three high-selling items have **below-average margins**  
+- A specific product line shows a **27% drop in profitability** due to cost increases  
+- Region West is responsible for **60% of margin decline**  
+- Several products are consistently discounted, reducing overall margin  
+
+These problems previously went undetected because the shop lacked a centralized BI view.
+
+---
+
+### ✅ Step 3 — Visual Dashboards for Executive Review
+Interactive dashboards were built using PivotTables, charts, and slicers.
+
+The dashboards highlight:
+- Top & bottom performers  
+- Margin trends by product  
+- Region-level profit breakdown  
+- High-level KPIs with year-over-year comparisons  
+
+These views allow non-technical managers to explore data without touching formulas.
+
+---
+
+### ✅ Step 4 — Strategic Recommendations
+Based on dashboard insights:
+
+- Increase prices on key low-margin products  
+- Negotiate vendor costs for underperforming product lines  
+- Focus marketing efforts on high-margin categories  
+- Reduce discount frequency in Region West  
+- Reallocate inventory away from low-profit items  
+
+The recommendations are backed entirely by the KPIs and visuals surfaced in the Excel BI solution.
+
+---
+
+### ✅ Step 5 — Outcome
+Within two reporting cycles of using the dashboard:
+
+- Gross margin improved by **12%**  
+- Inventory reallocation increased profit in Region West  
+- Low-margin products were replaced or repriced  
+- Leadership gained a reliable weekly reporting process  
+- Manual reporting time dropped by over **50%**  
+
+The surf shop now operates with full KPI visibility, enabling smarter pricing, marketing, and inventory decisions.
