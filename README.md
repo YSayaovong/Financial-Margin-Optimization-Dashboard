@@ -40,9 +40,9 @@ Using Excel formulas and calculated fields, KPIs are created:
 
 **Key Findings:**
 - Three high-volume products operate at **below-average margins**  
-- Region West accounts for **60% of the total margin decline**  
-- A major product category suffered a **27% cost increase**  
-- Discount habits in specific regions eroded overall margin  
+- Region West accounts for **60%** of the total margin decline  
+- A major product category suffered a **27%** cost increase  
+- Discount habits in specific regions eroded overall margins  
 
 These insights were previously hidden due to siloed spreadsheets.
 
@@ -56,7 +56,7 @@ Interactive dashboards present:
 - KPIs for revenue, units, and profitability  
 - Trends showing cost behavior vs. revenue growth  
 
-Leadership can now spot issues instantly rather than reviewing static monthly reports.
+Leadership can quickly isolate what’s driving profit loss instead of relying on static month-end summaries.
 
 ---
 
@@ -64,10 +64,10 @@ Leadership can now spot issues instantly rather than reviewing static monthly re
 Based on the analysis:
 
 - Increase pricing on low-margin items  
-- Negotiate supplier terms for affected categories  
-- Reduce discount frequency in weak-margin regions  
+- Renegotiate supplier terms for high-cost categories  
+- Limit discounting in poor-margin regions  
 - Shift inventory toward high-ROI products  
-- Redirect marketing spend to profitable categories  
+- Target marketing toward profitable categories  
 
 ---
 
@@ -76,21 +76,21 @@ Within two reporting cycles:
 
 - Gross margin increased by **12%**  
 - Region West profitability stabilized  
-- Low-margin products were repriced or phased out  
-- Manual reporting workload dropped by over **50%**  
-- Leadership adopted the dashboard as a weekly operational tool  
+- Low-margin products were repriced or discontinued  
+- Reporting time dropped by **50%+**  
+- Leadership now uses the dashboard as a weekly operations tool  
 
-This end-to-end BI solution gave the surf shop complete visibility into what drives profit—and what destroys it.
+This BI workflow gives the surf shop full visibility into what drives profit—and what erodes it.
 
 ---
 
 # 📸 Dashboard
 
 ### Key Metrics  
-![Key Metrics](images/metrics.PNG)
+![Key Metrics](https://github.com/YSayaovong/Surf-Shop-BI-Solution/blob/main/images/metrics.PNG)
 
 ### Profit by Product  
-![Profit by Product](images/profit_by_product.PNG)
+![Profit by Product](https://github.com/YSayaovong/Surf-Shop-BI-Solution/blob/main/images/profit_by_product.PNG)
 
 ### Profit by Region  
-![Profit by Region](images/profit_by_region.PNG)
+![Profit by Region](https://github.com/YSayaovong/Surf-Shop-BI-Solution/blob/main/images/profit_by_region.PNG)
