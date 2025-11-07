@@ -84,7 +84,7 @@ This end-to-end BI solution gave the surf shop complete visibility into what dri
 
 ---
 
-# 📸 Dashboard Previews (Images Moved to the Bottom)
+# 📸 Dashboard
 
 ### Key Metrics  
 ![Key Metrics](images/metrics.PNG)
